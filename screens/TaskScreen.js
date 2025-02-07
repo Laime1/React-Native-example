@@ -73,7 +73,7 @@ const TaskScreen = () => {
             value={description}
             onChangeText={setDescription}
             multiline={true}  // Permite varias líneas
-            numberOfLines={3} // Número inicial de líneas visibles
+            numberOfLines={3} 
             style={styles.inputs1}
           />
           <Button title="Agregar Tarea" onPress={addTask} />
